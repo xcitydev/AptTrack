@@ -29,7 +29,7 @@ const Token = ({ address, addyType }: Items) => {
               className="w-[2rem] h-[2rem] p-1"
             />
             <div className="pl-3 p-1 lg:pl-[3rem] lg:pr-[3rem] border-[#00FFF0] border-2 h-fit ml-2 cursor-pointer">
-              {address != "" ? (
+              {address !== "" ? (
                 <p className="text-[13px]" onClick={disconnect}>
                   {" "}
                   {`User: ${address?.substring(0, 5)}...
